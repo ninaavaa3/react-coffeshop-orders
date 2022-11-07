@@ -1,0 +1,30 @@
+.button {
+   
+
+   border: #42240f;
+    background-color: #42240f;
+    color: white;
+    padding: 0.75rem 3rem;
+    display: flex;
+   
+   
+    border-radius: 10rem;
+ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #1e1107;
+  }
+  .icon{
+   width: 40px;
+   height: 25px;
+   margin-top: 5%;
+  }
+
+  
+
+
+  

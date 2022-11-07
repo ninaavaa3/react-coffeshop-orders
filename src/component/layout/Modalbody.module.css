@@ -1,0 +1,12 @@
+.style{
+    display: flex;
+    justify-content: space-around;
+    color:rgb(116, 80, 57);
+    text-shadow: 0.5px 0.5px 0.5px rgb(32, 21, 16);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h{
+    color:rgb(116, 80, 57);
+    text-shadow: 0.5px 0.5px 0.5px rgb(32, 21, 16);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

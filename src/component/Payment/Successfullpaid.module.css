@@ -1,0 +1,10 @@
+.text{
+    color: rgb(171, 132, 111);
+    text-align: center;
+    margin-top: 16%;
+    background-image: url(../../asset/header.jpg);
+    padding: 5%;
+    text-shadow: 5px 5px 5px rgb(32, 27, 23);
+    font-size:xx-large;
+    font-weight:600;
+}
