@@ -9,35 +9,28 @@ const App = () => {
 
     useEffect(() => {
         const fetchMenu = async () => {
-
             try {
                 const response = await fetch("https://react-http-669d9-default-rtdb.firebaseio.com//menu.json");
                 if (!response.ok) {
                     throw Error(response.status);
-
-                    const database = await response.json();
-                    const data = [];
-                    for (const key in database) {
-                        data.push({
-                            foodname: database[key].foodname,
-                            explain: database[key].explain,
-                            cost: database[key].cost,
-                            id: key,
-                            img: database[key].img
-                        }
-                        )
-                    }
-                    setState(data);
                 }
-                catch (err) { console.log(err) }
-            }
-
+                const database = await response.json();
+                const data = [];
+                for (const key in database) {
+                    data.push({
+                        foodname: database[key].foodname,
+                        explain: database[key].explain,
+                        cost: database[key].cost,
+                        id: key,
+                        img: database[key].img
+                    }
+                    )
+                }
+                setState(data);
+            } catch (err) { console.log(err) }
+        }
         fetchMenu();
-
-
-        }, [
-
-        ]);
+    }, []);
 
 
     const [newFood, setNewFood] = useState([]);
