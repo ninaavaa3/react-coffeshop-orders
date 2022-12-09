@@ -10,7 +10,7 @@ const App = () => {
     useEffect(() => {
         const fetchMenu = async () => {
             try {
-                const response = await fetch("https://react-http-669d9-default-rtdb.firebaseio.com//menu.json");
+                const response = await fetch("https://react-http-669d9-default-rtdb.firebaseio.com/menu.json");
                 if (!response.ok) {
                     throw Error(response.status);
                 }
@@ -23,8 +23,7 @@ const App = () => {
                         cost: database[key].cost,
                         id: key,
                         img: database[key].img
-                    }
-                    )
+                    });
                 }
                 setState(data);
             } catch (err) { console.log(err) }
@@ -32,9 +31,7 @@ const App = () => {
         fetchMenu();
     }, []);
 
-
     const [newFood, setNewFood] = useState([]);
-
     const addfood = (food) => {
         let foodIndex = newFood.findIndex(fd => fd.id === food.id);
         if (foodIndex >= 0) {
