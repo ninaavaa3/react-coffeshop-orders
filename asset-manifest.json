@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-coffeshop-orders/static/css/main.805ae922.css",
+    "main.js": "/react-coffeshop-orders/static/js/main.4458a6b5.js",
+    "static/media/header.jpg": "/react-coffeshop-orders/static/media/header.7043b148408c43e337b2.jpg",
+    "static/media/coffeshop.jpg": "/react-coffeshop-orders/static/media/coffeshop.62d692df9f2d12d81182.jpg",
+    "static/media/header.webp": "/react-coffeshop-orders/static/media/header.c2dcf7dffe49f5ba0893.webp",
+    "index.html": "/react-coffeshop-orders/index.html",
+    "static/media/trash.svg": "/react-coffeshop-orders/static/media/trash.4ea6cd3d723cdf062aade7a20bb8938c.svg",
+    "static/media/shopping.svg": "/react-coffeshop-orders/static/media/shopping.9f4798ca54d97002be39b175dc943854.svg",
+    "main.805ae922.css.map": "/react-coffeshop-orders/static/css/main.805ae922.css.map",
+    "main.4458a6b5.js.map": "/react-coffeshop-orders/static/js/main.4458a6b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.805ae922.css",
+    "static/js/main.4458a6b5.js"
+  ]
+}
