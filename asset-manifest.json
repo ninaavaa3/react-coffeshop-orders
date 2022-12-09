@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-coffeshop-orders/static/css/main.805ae922.css",
-    "main.js": "/react-coffeshop-orders/static/js/main.b8801afd.js",
-    "static/media/header.jpg": "/react-coffeshop-orders/static/media/header.7043b148408c43e337b2.jpg",
-    "static/media/coffeshop.jpg": "/react-coffeshop-orders/static/media/coffeshop.62d692df9f2d12d81182.jpg",
-    "static/media/header.webp": "/react-coffeshop-orders/static/media/header.c2dcf7dffe49f5ba0893.webp",
-    "index.html": "/react-coffeshop-orders/index.html",
-    "static/media/trash.svg": "/react-coffeshop-orders/static/media/trash.4ea6cd3d723cdf062aade7a20bb8938c.svg",
-    "static/media/shopping.svg": "/react-coffeshop-orders/static/media/shopping.9f4798ca54d97002be39b175dc943854.svg",
-    "main.805ae922.css.map": "/react-coffeshop-orders/static/css/main.805ae922.css.map",
-    "main.b8801afd.js.map": "/react-coffeshop-orders/static/js/main.b8801afd.js.map"
+    "main.css": "/static/css/main.ad928ece.css",
+    "main.js": "/static/js/main.aec879f8.js",
+    "static/media/header.jpg": "/static/media/header.7043b148408c43e337b2.jpg",
+    "static/media/coffeshop.jpg": "/static/media/coffeshop.62d692df9f2d12d81182.jpg",
+    "static/media/header.webp": "/static/media/header.c2dcf7dffe49f5ba0893.webp",
+    "index.html": "/index.html",
+    "static/media/trash.svg": "/static/media/trash.4ea6cd3d723cdf062aade7a20bb8938c.svg",
+    "static/media/shopping.svg": "/static/media/shopping.9f4798ca54d97002be39b175dc943854.svg",
+    "main.ad928ece.css.map": "/static/css/main.ad928ece.css.map",
+    "main.aec879f8.js.map": "/static/js/main.aec879f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.805ae922.css",
-    "static/js/main.b8801afd.js"
+    "static/css/main.ad928ece.css",
+    "static/js/main.aec879f8.js"
   ]
 }
